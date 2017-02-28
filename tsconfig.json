@@ -1,0 +1,14 @@
+/* This tsconfig.json will be used by the gulp process for tyepscript compilation */
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+  	"outDir": "dist"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
